@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Block Level vs. Inline Level Elements</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header></header>
+  
+    <h1>A Header is block level</h1>
+    
+    <nav></nav>
+    
+    <ul>
+      <li>page1</li>
+      <li>page2</li>
+      <li>page3</li>
+      <li>page4</li>
+    </ul>
+    
+    <div class="main"></div>
+    
+    <article></article>
+    <blockquote>
+      Block-level elements ... most significant characteristic is that they typically are formatted with a line break before and after the element (thereby creating a stand-alone block of content). That is, they take up the width of their containers. (MDN HTML Reference)
+    </blockquote>
+    
+    <p>Block level elements take up 100% of the width of the parent container. (Unless a width is specified.) They can be assigned width, height, margin and padding. </p>
+    
+    <p>Block level elements are automatically placed on the next line after the previous block level element. This is the normal document flow when you don't use positioning or floats.</p>
+    
+    <p></p>
+    
+    <h2>Inline Elments</h2>
+    
+    <p>Here are some inline elements: 
+      <span>This is a span.</span>
+    
+      <em>This is emphasis.</em>
+    
+      <strong>This is strong.</strong>
+      
+      <a href="#">This is an anchor tag (link).</a>
+    </p>
+    
+    <p>And here is an image: <img src="pumpkin.jpg" alt=""> which is also an inline element.</p>
+    
+    <p>
+      <span> </span> 
+      <em> </em> 
+      <strong> </strong> 
+      <a href=""> </a>
+    </p>
+    
+    <footer></footer>
+    
+    <p>&copy; lcdesigndevelop.com 2013</p>
+  
+  </div>
+</body>
+</html>
